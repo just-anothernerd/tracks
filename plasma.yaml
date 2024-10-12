@@ -121,6 +121,7 @@ packages:
   - 'sddm'
   - 'waydroid'
   - 'waydroid-image'
+  - 'base-devel'
 
 aur-packages:
   - 'chromium'
