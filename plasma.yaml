@@ -115,7 +115,7 @@ packages:
   - 'ttf-jetbrains-mono'
   - 'gufw'
   - 'kde-system-meta'
-  - 'kde-utilities-meta'
+#  - 'kde-utilities-meta'
   - 'plasma'
   - 'plasma-workspace'
   - 'sddm'
@@ -124,6 +124,7 @@ packages:
 
 aur-packages:
   - 'chromium'
+  - 'brave-bin'
   - 'brave-browser'
   - 'firefox'
 
