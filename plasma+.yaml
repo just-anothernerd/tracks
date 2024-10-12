@@ -71,4 +71,4 @@ services:
   - ufw.service
 
 commands:
-  - mkdir /mnt2 /mnt3 /pmnt/virt /pmnt/tank /pmnt/scratch /pmnt/windman
+  - 'mkdir /mnt2 /mnt3 /pmnt/virt /pmnt/tank /pmnt/scratch /pmnt/windman'
