@@ -115,6 +115,11 @@ packages:
   - 'ttf-jetbrains-mono'
   - 'gufw'
 
+aur-packages:
+  - 'chromium'
+  - 'brave-browser'
+  - 'firefox'
+
 services:
   - 'bluetooth'
   - 'NetworkManager'
