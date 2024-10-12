@@ -16,3 +16,4 @@ services:
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
+  - 'sudo pacman -Syu'
