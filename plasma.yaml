@@ -116,18 +116,25 @@ packages:
   - 'gufw'
   - 'kde-system-meta'
 #  - 'kde-utilities-meta'
+  - 'kdeconnect'
+  - 'partitionmanager'
+  - 'neofetch'
+  - 'apparmor'
+  - 'konsole'
   - 'plasma'
   - 'plasma-workspace'
   - 'sddm'
   - 'waydroid'
   - 'waydroid-image'
   - 'base-devel'
+  - 'htop'
 
 aur-packages:
   - 'chromium'
   - 'brave-bin'
   - 'brave-browser'
   - 'firefox'
+#  - 'github-desktop-bin'
 
 services:
   - 'bluetooth'
