@@ -130,8 +130,8 @@ packages:
 
 aur-packages:
   - 'chromium'
-  - 'brave-bin'
-  - 'brave-browser'
+#  - 'brave-bin'
+#  - 'brave-browser'
   - 'firefox'
 
 services:
