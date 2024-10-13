@@ -1,6 +1,6 @@
 impl: 'https://github.com/just-anothernerd/tracks/raw/main'
 
-track: custom-plasma  ## change to any desktop environment track, custom-plasma is my current plasma build
+track: 'custom-plasma' ## change to any desktop environment track, custom-plasma is my current plasma build
 
 packages:
   - 'gamescope'
