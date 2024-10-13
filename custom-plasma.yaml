@@ -127,6 +127,7 @@ packages:
   - 'waydroid-image'
   - 'base-devel'
   - 'htop'
+  - 'qemu-guest-agent'
 
 aur-packages:
   - 'chromium'
