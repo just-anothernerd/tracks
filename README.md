@@ -1,3 +1,5 @@
+# THIS FORK IS A WORK-IN-PROGRESS while I tweak and experiment
+
 # blendOS Tracks
 
 * GNOME: `gnome`
