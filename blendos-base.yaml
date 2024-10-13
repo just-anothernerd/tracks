@@ -114,6 +114,7 @@ packages:
   - 'networkmanager'
   - 'ttf-jetbrains-mono'
   - 'gufw'
+  - 'qemu-guest-agent'
 
 aur-packages:
   - 'chromium'
