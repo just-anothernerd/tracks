@@ -115,7 +115,6 @@ packages:
   - 'ttf-jetbrains-mono'
   - 'gufw'
   - 'kde-system-meta'
-#  - 'kde-utilities-meta'
   - 'kdeconnect'
   - 'partitionmanager'
   - 'neofetch'
@@ -134,7 +133,6 @@ aur-packages:
   - 'brave-bin'
   - 'brave-browser'
   - 'firefox'
-#  - 'github-desktop-bin'
 
 services:
   - 'bluetooth'
