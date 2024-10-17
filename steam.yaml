@@ -154,10 +154,6 @@ packages:
   - 'qemu-guest-agent'
 
 aur-packages:
-  - 'chromium'
-#  - 'brave-bin'
-#  - 'brave-browser'
-  - 'firefox'
   - 'steam'
   - 'steam-native-runtime'
   - 'heroic-games-launcher'
