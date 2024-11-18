@@ -2,7 +2,7 @@ repo: 'https://pkg-repo.blendos.co'
 
 arch-repo: 'https://geo.mirror.pkgbuild.com' 
 
-track: 'custom'
+track: 'blendos-base'
 
 packages:
   - 'alsa-utils'
