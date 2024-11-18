@@ -8,9 +8,11 @@ packages:
   - 'alsa-utils'
   - 'amd-ucode'
   - 'arch-install-scripts'
+  - 'apparmor'
   - 'b43-fwcutter'
   - 'archlinux-keyring'
   - 'base-devel'
+  - 'clamtk'
   - 'git'
   - 'bzip2'
   - 'coreutils'
@@ -158,9 +160,10 @@ packages:
   - 'libvirt'
   - 'ovmf'
   - 'virt-manager'
-
+  - 'tailscale'
 
 aur-packages:
+  - 'flatseal'
   - 'steam'
   - 'steam-native-runtime'
 #  - 'winetricks'
