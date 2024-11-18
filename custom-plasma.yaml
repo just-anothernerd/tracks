@@ -190,6 +190,23 @@ aur-packages:
   - 'lib32-gst-plugins-base-libs'
   - 'lib32-vulkan-icd-loader'
 
+package-repos:
+  - name: 'flathub'
+    repo-url: 'https://flathub.org/repo/flathub.flatpakrepo'
+
+flathub-packages:
+  - 'com.brave.Browser'
+  - 'io.github.ungoogled_software.ungoogled_chromium'
+  - 'org.mozilla.firefox'
+  - 'org.kde.kate'
+  - 'org.kde.ark'
+  - 'org.kde.okular'
+  - 'org.kde.gwenview'
+  - 'io.github.shiftey.Desktop'
+  - 'com.heroicgameslauncher.hgl'
+  - 'net.lutris.lutris'
+  - 'io.podman_desktop.PodmanDesktop'
+
 services:
   - 'bluetooth'
   - 'NetworkManager'
@@ -202,13 +219,13 @@ user-services:
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
   - 'pacman -R gnome-desktop gnome-desktop-common'
-  - 'flatpak install --no-confirm flathub com.brave.Browser'
-  - 'flatpak install --no-confirm flathub io.github.ungoogled_software.ungoogled_chromium'
-  - 'flatpak install --no-confirm flathub org.mozilla.firefox'
-  - 'flatpak install --no-confirm flathub org.kde.kate'
-  - 'flatpak install --no-confirm flathub io.github.shiftey.Desktop'
-  - 'flatpak install --no-confirm flathub org.kde.falkon'
-  - 'flatpak install --no-confirm flathub org.kde.ark'
-  - 'flatpak install --no-confirm flathub com.heroicgameslauncher.hgl'
-  - 'flatpak install --no-confirm flathub net.lutris.Lutris'
-  - 'flatpak install --no-confirm flathub io.podman_desktop.PodmanDesktop'
+#  - 'flatpak install --no-confirm flathub com.brave.Browser'
+#  - 'flatpak install --no-confirm flathub io.github.ungoogled_software.ungoogled_chromium'
+#  - 'flatpak install --no-confirm flathub org.mozilla.firefox'
+#  - 'flatpak install --no-confirm flathub org.kde.kate'
+#  - 'flatpak install --no-confirm flathub io.github.shiftey.Desktop'
+#  - 'flatpak install --no-confirm flathub org.kde.falkon'
+#  - 'flatpak install --no-confirm flathub org.kde.ark'
+#  - 'flatpak install --no-confirm flathub com.heroicgameslauncher.hgl'
+#  - 'flatpak install --no-confirm flathub net.lutris.Lutris'
+#  - 'flatpak install --no-confirm flathub io.podman_desktop.PodmanDesktop'
