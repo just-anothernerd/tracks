@@ -237,8 +237,6 @@ user-services:
   - 'blend-files'
 
 commands:
-  - 'rm -f /usr/share/applications/Waydroid.desktop'
-  - 'pacman -R gnome-desktop gnome-desktop-common'
 #  - 'flatpak install --no-confirm flathub com.brave.Browser'
 #  - 'flatpak install --no-confirm flathub io.github.ungoogled_software.ungoogled_chromium'
 #  - 'flatpak install --no-confirm flathub org.mozilla.firefox'
