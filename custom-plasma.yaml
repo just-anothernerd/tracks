@@ -190,22 +190,42 @@ aur-packages:
   - 'lib32-gst-plugins-base-libs'
   - 'lib32-vulkan-icd-loader'
 
-package-repos:
-  - name: 'flathub'
-    repo-url: 'https://flathub.org/repo/flathub.flatpakrepo'
+  # system.yaml
+flatpak:
+  enable: true
+  update_flatpak: true
 
-flathub-packages:
-  - 'com.brave.Browser'
-  - 'io.github.ungoogled_software.ungoogled_chromium'
-  - 'org.mozilla.firefox'
-  - 'org.kde.kate'
-  - 'org.kde.ark'
-  - 'org.kde.okular'
-  - 'org.kde.gwenview'
-  - 'io.github.shiftey.Desktop'
-  - 'com.heroicgameslauncher.hgl'
-  - 'net.lutris.lutris'
-  - 'io.podman_desktop.PodmanDesktop'
+bpkg:
+  sources:
+    - name: Flathub
+      url: https://dl.flathub.org/repo/
+      priority: 1
+  update_behavior: incremental
+
+flatpaks:
+  - name: firefox
+    source: Flathub
+  - name: kate
+    source: Flathub
+  - name: ark
+    source: Flathub
+
+#package-repos:
+#  - name: 'flathub'
+#    repo-url: 'https://flathub.org/repo/flathub.flatpakrepo'
+
+#flathub-packages:
+#  - 'com.brave.Browser'
+#  - 'io.github.ungoogled_software.ungoogled_chromium'
+#  - 'org.mozilla.firefox'
+#  - 'org.kde.kate'
+#  - 'org.kde.ark'
+#  - 'org.kde.okular'
+#  - 'org.kde.gwenview'
+#  - 'io.github.shiftey.Desktop'
+#  - 'com.heroicgameslauncher.hgl'
+#  - 'net.lutris.lutris'
+#  - 'io.podman_desktop.PodmanDesktop'
 
 services:
   - 'bluetooth'
