@@ -1,4 +1,4 @@
-repo: 'https://pkg-repo.blendos.co' 
+repo: 'http://pkg-repo.blendos.co' 
 
 arch-repo: 'http://geo.mirror.pkgbuild.com' 
 
@@ -169,6 +169,10 @@ aur-packages:
   - 'steam-native-runtime'
 #  - 'winetricks'
 #  - 'protontricks'
+  - 'lib32-mesa'
+  - 'lib32-keyutils'
+  - 'lib32-pam'
+  - 'lib32-harfbuzz'
   - 'lib32-giflib'
   - 'lib32-libpng'
   - 'lib32-libldap'
