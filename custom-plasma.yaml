@@ -1,4 +1,4 @@
-repo: 'http://pkg-repo.blendos.co' 
+toprepo: 'http://pkg-repo.blendos.co' 
 
 arch-repo: 'http://geo.mirror.pkgbuild.com' 
 
@@ -126,7 +126,7 @@ packages:
   - 'neofetch'
   - 'apparmor'
   - 'konsole'
-  - 'plasma'
+  - 'plasma-desktop'
   - 'plasma-workspaces'
   - 'sddm'
   - 'waydroid'
