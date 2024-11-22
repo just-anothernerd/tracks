@@ -162,6 +162,7 @@ packages:
   - 'virt-manager'
   - 'tailscale'
   - 'flatpak'
+  - 'dmenu'
 
 aur-packages:
   - 'flatseal'
@@ -205,13 +206,13 @@ user-services:
   - 'blend-files'
 
 commands:
-  - 'flatpak install --no-confirm flathub com.brave.Browser'
-  - 'flatpak install --no-confirm flathub io.github.ungoogled_software.ungoogled_chromium'
-  - 'flatpak install --no-confirm flathub org.mozilla.firefox'
-  - 'flatpak install --no-confirm flathub org.kde.kate'
-  - 'flatpak install --no-confirm flathub io.github.shiftey.Desktop'
-  - 'flatpak install --no-confirm flathub org.kde.falkon'
-  - 'flatpak install --no-confirm flathub org.kde.ark'
-  - 'flatpak install --no-confirm flathub com.heroicgameslauncher.hgl'
-  - 'flatpak install --no-confirm flathub net.lutris.Lutris'
-  - 'flatpak install --no-confirm flathub io.podman_desktop.PodmanDesktop'
+  - 'flatpak install -y flathub com.brave.Browser'
+  - 'flatpak install -y flathub io.github.ungoogled_software.ungoogled_chromium'
+  - 'flatpak install -y flathub org.mozilla.firefox'
+  - 'flatpak install -y flathub org.kde.kate'
+  - 'flatpak install -y flathub io.github.shiftey.Desktop'
+  - 'flatpak install -y flathub org.kde.falkon'
+  - 'flatpak install -y flathub org.kde.ark'
+  - 'flatpak install -y flathub com.heroicgameslauncher.hgl'
+  - 'flatpak install -y flathub net.lutris.Lutris'
+  - 'flatpak install -y flathub io.podman_desktop.PodmanDesktop'
