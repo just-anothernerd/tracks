@@ -172,7 +172,6 @@ aur-packages:
   - 'flatseal'
   - 'steam'
   - 'steam-native-runtime'
-  - 'heroic-games-laucher-bin'
   - 'winetricks'
   - 'protontricks'
   - 'lib32-mesa'
