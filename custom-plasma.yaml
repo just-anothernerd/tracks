@@ -127,7 +127,7 @@ packages:
   - 'apparmor'
   - 'konsole'
   - 'plasma-desktop'
-  - 'plasma-workspaces'
+  - 'plasma-workspace'
   - 'sddm'
   - 'waydroid'
   - 'waydroid-image'
