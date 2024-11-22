@@ -163,6 +163,7 @@ packages:
   - 'tailscale'
   - 'flatpak'
   - 'dmenu'
+  - 'kate'
 
 aur-packages:
   - 'flatseal'
@@ -207,12 +208,8 @@ user-services:
 
 commands:
   - 'flatpak install -y flathub com.brave.Browser'
-  - 'flatpak install -y flathub io.github.ungoogled_software.ungoogled_chromium'
   - 'flatpak install -y flathub org.mozilla.firefox'
-  - 'flatpak install -y flathub org.kde.kate'
   - 'flatpak install -y flathub io.github.shiftey.Desktop'
-  - 'flatpak install -y flathub org.kde.falkon'
-  - 'flatpak install -y flathub org.kde.ark'
   - 'flatpak install -y flathub com.heroicgameslauncher.hgl'
   - 'flatpak install -y flathub net.lutris.Lutris'
   - 'flatpak install -y flathub io.podman_desktop.PodmanDesktop'
